@@ -61,7 +61,9 @@ present_state<=next_state;
 assign z=(present_state==s3);
 endmodule
 ```
+
 OUTPUT:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-5/assets/160568677/5bbe8888-cfab-4684-afce-49c986c7e22c)
 
 RESULT:
