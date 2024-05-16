@@ -1,14 +1,14 @@
-# VLSI-LAB-EXP-5
 # SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
-AIM: To simulate and synthesis finite state machine using Xilinx ISE.
+**AIM:** To simulate and synthesis finite state machine using Xilinx ISE.
 
-**APPARATUS REQUIRED: **
+**APPARATUS REQUIRED:**
 
 Xilinx 14.7 
 Spartan6 FPGA
 
-**PROCEDURE: **
+**PROCEDURE:**
+
 STEP:1 Start the Xilinx navigator, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed. 
@@ -33,12 +33,12 @@ STEP:11 On the board, by giving required input, the LEDs starts to glow light, i
 
 STEP:12 Load the Bit file into the SPARTAN 6 FPGA 
 
-Logic Diagram :
+**Logic Diagram :**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
 
 
-VERILOG CODE:
+**VERILOG CODE:**
 ```
 module fsm_moore(clk, rst, x, z);
 input clk, rst, x;
@@ -73,9 +73,10 @@ assign z=(present_state==s3);
 endmodule
 ```
 
-OUTPUT:
+**OUTPUT:**
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-5/assets/160568677/5bbe8888-cfab-4684-afce-49c986c7e22c)
 
-RESULT:
+**RESULT:**
+
  synthesis of finite state machine is implemented successfully.
